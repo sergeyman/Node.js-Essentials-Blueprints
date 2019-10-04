@@ -1,2 +1,2 @@
-# Node.js-Essentials-Blueprints
-Node.js invstigations
+# Node.JS-Essetials-Bluprints
+Node.JS Investigations
