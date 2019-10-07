@@ -59,7 +59,7 @@ function requestHandler( request, responce ) {
 	message = '\n\nVisitor\'s counter: ' + counter; 
 	
 	//console.log( message );
-	console.log( request.url, chalk.blue('[' + status + ']'), message );
+	console.log( request.url, chalk.green('[' + status + ']'), message );
 	
 	responce.end( message );
 }
@@ -84,5 +84,5 @@ var server = http.createServer( function( request, responce ) {
 */
 
 server.listen(port, hostname, () => {
-  console.log(chalk.blue(`Server running at http://${hostname}:${port}/`));
+  console.log(chalk.green(`Server running at http://${hostname}:${port}/`));
 });
